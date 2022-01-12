@@ -1,0 +1,29 @@
+body {
+  background-color: #EAF6F6;
+}
+
+
+/* Intro*/
+#heading {
+
+}
+.navbar {
+  background-color: #AAF0D1;
+  width: 100%;
+  position: fixed;
+
+
+}
+.nav-link {
+  position: relative;
+
+
+}
+
+.profile-img {
+  margin: 5%;
+}
+.bio {
+  padding: 5%;
+  line-height: 1.5;
+}
