@@ -22,11 +22,16 @@ li {
 
 a {
   color: #3EB489;
+  text-decoration: none;
 }
+
 a:hover {
   color: #1597E5;
 }
 
+a:active {
+  color: #0E49B5;
+}
 /* Dropdown Button and navbar  -----------------------------------------------------------------*/
 .navbar {
   background-color: #AAF0D1;
@@ -55,6 +60,7 @@ a:hover {
   background-color: #EAF6F6;
   color: #1597E5;
 }
+
 .fi {
   /*font icons */
   font-size: 1.5rem;
@@ -76,6 +82,7 @@ a:hover {
 }
 
 .bio {
+  margin-top: 5%;
   padding: 5%;
 }
 
@@ -112,6 +119,7 @@ a:hover {
 .inner-list {
   margin-top: 1rem;
   font-size: 1rem;
+  line-height: 2;
 }
 
 .sect-part {
@@ -124,7 +132,8 @@ a:hover {
   top: -180px;
 }
 
-.date { /*Applicable for all date text areas*/
+.date {
+  /*Applicable for all date text areas*/
   font-size: 1rem;
   font-style: italic;
   float: right;
@@ -147,6 +156,7 @@ a:hover {
   padding: 4% auto;
   font-size: 1.3rem;
   text-align: center;
+  border-bottom: solid green 1px;
 }
 
 /* footer ----------------------------------------------------------------- */
@@ -165,10 +175,43 @@ a:hover {
   font-size: 2rem;
   margin: 3%;
 }
+
 .footer-icon:hover {
   color: #1597E5;
 }
+
 .copyright {
   position: relative;
   bottom: 2%;
+}
+
+/* Forms */
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* Advanced CSS for mobile and tablet displays */
+@media (max-width: 1285px) {
+  .sbu-img {
+    top: 4%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .navbar {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .date {
+    float: none;
+  }
+
+  .location {
+    padding: 5%;
+  }
 }
