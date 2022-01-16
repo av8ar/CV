@@ -142,6 +142,13 @@ a:hover {
   font-size: 1.2rem;
 }
 
+/* Skills */
+.skills {
+  padding: 4% auto;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
 /* footer ----------------------------------------------------------------- */
 .contacts {
   padding: 5% 3%;
@@ -159,5 +166,9 @@ a:hover {
   margin: 3%;
 }
 .footer-icon:hover {
-  color: #113CFC;
+  color: #1597E5;
+}
+.copyright {
+  position: relative;
+  bottom: 2%;
 }
