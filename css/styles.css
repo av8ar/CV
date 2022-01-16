@@ -1,29 +1,163 @@
 body {
   background-color: #EAF6F6;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
 }
 
-
-/* Intro*/
-#heading {
-
+h1 {
+  font-family: "Montserrat", sans-serif;
 }
+
+h3, h4 {
+  font-family: "Merriweather", serif;
+}
+
+hr {}
+
+li {
+  list-style-type: none;
+  /* font-size: 1.5rem;
+  margin: 5% auto; */
+}
+
+a {
+  color: #3EB489;
+}
+a:hover {
+  color: #1597E5;
+}
+
+/* Dropdown Button and navbar  -----------------------------------------------------------------*/
 .navbar {
   background-color: #AAF0D1;
+  padding-left: 87%;
   width: 100%;
   position: fixed;
-
-
+  z-index: 1;
 }
+
+.custom-dropdown {
+  background-color: #3EB489;
+}
+
+.custom-dropdown:hover {
+  background-color: #1597E5;
+}
+
 .nav-link {
+  line-height: 1.5;
+  color: #3EB489;
   position: relative;
+  text-align: center;
+}
 
+.nav-link:hover {
+  background-color: #EAF6F6;
+  color: #1597E5;
+}
+.fi {
+  /*font icons */
+  font-size: 1.5rem;
+}
 
+/* Heading ----------------------------------------------------------------- */
+#heading {
+  padding: 3% auto;
+}
+
+.heading-table {
+  position: relative;
+  top: 2rem;
+  margin: auto 3%;
 }
 
 .profile-img {
   margin: 5%;
 }
+
 .bio {
   padding: 5%;
-  line-height: 1.5;
+}
+
+.about {
+  padding: auto 5%;
+  margin-right: 9%;
+  line-height: 2.5;
+}
+
+/* Education -----------------------------------------------------------------*/
+.section-boundary {
+  padding: 5%;
+  margin: auto 3%;
+}
+
+.education-list {
+  /*Applies to outer list */
+  padding: 3%;
+  font-size: 1.5rem;
+  margin: 5% auto;
+}
+
+.location {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.outer-list {
+  /* Set the precedence for future sub-sections of website*/
+  position: relative;
+  display: inline-block;
+}
+
+.inner-list {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.sect-part {
+  margin-bottom: 4rem;
+}
+
+.sbu-img {
+  position: relative;
+  left: 100px;
+  top: -180px;
+}
+
+.date { /*Applicable for all date text areas*/
+  font-size: 1rem;
+  font-style: italic;
+  float: right;
+}
+
+/* Experience ----------------------------------------------------------------- */
+.work-experience {
+  padding: 3%;
+  font-size: 1.5rem;
+  margin: 5%;
+}
+
+/* Projects */
+.project-types {
+  font-size: 1.2rem;
+}
+
+/* footer ----------------------------------------------------------------- */
+.contacts {
+  padding: 5% 3%;
+  background-color: #AAF0D1;
+  text-align: center;
+}
+
+.footer-heading {
+  margin-top: 2%;
+}
+
+.footer-icon {
+  color: #3EB489;
+  font-size: 2rem;
+  margin: 3%;
+}
+.footer-icon:hover {
+  color: #113CFC;
 }
